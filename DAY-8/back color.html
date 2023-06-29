@@ -1,0 +1,21 @@
+<html>
+    <head>
+        <title>back color</title>
+    </head>
+    <body id="mybody">
+
+    </body>
+    <script>
+        var colors=["red","green","blue","brown","black"];
+        var mybody= document.getElementById("mybody");
+        var i=0;
+        setInterval(()=>{
+            mybody.style.backgroundColor =colors[i];
+            ++i;
+            if(i==colors.legnth)
+            {
+                i=0;
+            }
+        },500)
+    </script>
+</html>
