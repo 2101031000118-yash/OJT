@@ -1,0 +1,52 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <title>Login Page</title>
+        <style>
+            fieldset{
+             background-color: coral;
+            }
+            Body{
+                background-color: darkgray;
+            }
+           .Cancelbtn{
+                 background-color: rgb(182, 182, 235);
+           }
+           .container{
+            padding: 25px;
+            background-color: tomato;
+           }
+           input[type=text],input[type=password]{
+            width:100%;
+            margin:8px;
+            padding:12px;
+            border:2px;
+           }
+           .button{
+            background-color: darkgoldenrod;
+           }
+        </style>
+    </head>
+    <body> 
+        <center><h1>SignUp</h1></center>
+        <form>
+            <fieldset>
+        <div class="container">
+            <label>Username:</label>
+            <input type="text" placeholder="Enter text here" name="username" required><br>
+            <label>E-mail:</label>
+            <input type="text" placeholder="Enter text here" name="E-mail" required><br>
+            <label>Phone:</label>
+            <input type="text" placeholder="Enter text here" name="Phone" required><br>
+            <label>Password:</label>
+            <input type="text" placeholder="Enter password here" name="password" required><br>
+            <blockquote>
+            <center><button type="Submit">Login</button></center><br>
+            <input type="checkbox" checked="checked">Remember me
+            <button type="button" class="Cancelbtn">Cancel</button>
+            Forgot<a href="#">password?</a>
+        </fieldset>
+        </div>
+        </form>
+    </body>
+</html>
